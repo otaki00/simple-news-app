@@ -1,0 +1,81 @@
+body{
+    background-color: rgb(1, 63, 63);
+    padding: 0;
+    margin: 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.container{
+    margin: auto;
+    width: 80%;
+    display: flex;
+    justify-content: flex-start;
+    height: 100vh;
+    align-items: center;
+    flex-direction: column;
+}
+h2{
+    width: 30%;
+    color: crimson;
+    margin: 40px;
+    
+}
+p{
+    margin: 40px;
+    font-size: 20px;
+    width: 50%;
+}
+.parent{
+    
+    margin-top: 90px;
+    width: 70%;
+    height: 500px;
+    background-color: white;
+    overflow: auto;
+    border-radius: 10px;
+}
+.bucket{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items:baseline;
+
+}
+.child{
+    background-color: rgb(218, 218, 192);
+    margin: 70px;
+    padding: 10px;
+
+}
+button{
+    margin-top: 60px;
+    transition: .5s;
+    margin-left: 25px;
+}
+button:hover{
+    cursor:pointer !important;
+    background-color: rgb(26, 23, 23);
+}
+.btns{
+    padding: 20px 30px;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: capitalize;
+    background-color:crimson ;
+    color: white;
+    border: none;
+    border-radius: 18px;
+    
+
+}
+.btnh{
+    padding: 20px 30px;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: capitalize;
+    background-color:rgb(116, 179, 15) ;
+    color: white;
+    border: none;
+    border-radius: 18px;
+    
+}
